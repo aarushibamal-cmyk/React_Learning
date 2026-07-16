@@ -18,6 +18,10 @@ function App() {
     // counter = counter +1; if we used this then use let and not used then we can use const
     // console.log(counter);
     setCounter(counter+1)
+    setCounter(counter+1)
+    setCounter(counter+1)
+    setCounter(counter+1) // all these are updating the same counter so the value only increase by 1
+    // to use mutiple counter use prevcounter setcounter (prevcounter)=>{prevcounter+1} this gets the last updated counter value
   }
 
   const decreaseValue = ()=>{
